@@ -1,0 +1,45 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+#logo {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+#logo-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo-left {
+    color: #9AF34C;
+}
+
+
+#login-btn, #login-btn:visited, #login-btn:link, #login-btn:active {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.6rem;
+    transition: all .2s linear;
+}
+
+#login-btn:hover {
+    opacity: .6;
+}
+
+#header-img {
+    margin: 0;
+    max-width: 100%;
+    display: block;
+    height: 100px;
+}
+
+.hide {
+    display: none;
+}

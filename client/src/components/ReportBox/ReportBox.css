@@ -1,0 +1,40 @@
+#report-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    border: 3px dashed #9AF34C;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+#platform {
+    margin: 0;
+}
+
+#target, #target:active, #target:link {
+    text-decoration: none;
+    background-color: #9AF34C;
+    width: 70%;
+    color: black;
+    padding: 5px;
+    transition: all .2s linear;
+}
+
+#target:hover {
+    opacity: .8;
+}
+
+#check {
+    color: rgb(243, 101, 76);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+#check:hover {
+    opacity: .8;
+}

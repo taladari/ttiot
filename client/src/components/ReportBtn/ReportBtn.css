@@ -1,0 +1,36 @@
+#report-btn {
+    text-decoration: none;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #9AF34C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #9AF34C;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+#report-btn:hover {
+    transform: rotate(180deg);
+}
+
+#report-btn-text {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+#report-btn:hover #report-btn-text {
+    transform: rotate(180deg);
+}
+
+#flag-icon {
+    font-size: 3rem;
+}
+
+#report-btn:hover #flag-icon {
+    transform: rotate(180deg);
+}
